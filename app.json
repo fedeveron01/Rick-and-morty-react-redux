@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "rick morty redux",
+    "slug": "app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/rick-icon.jpg",
+    "splash": {
+      "image": "./assets/rick-icon.jpg",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.rick.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/rick-icon.jpg",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.rickmorty"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
