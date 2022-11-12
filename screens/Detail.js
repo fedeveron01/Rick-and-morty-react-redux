@@ -1,7 +1,6 @@
 import axios from 'axios';
 import React,{useState,useEffect} from 'react';
 import { Text, View, ScrollView,StyleSheet, TouchableOpacity, FlatList,Button ,Image,ImageBackground} from 'react-native';
-import {getCharacters } from '../core/services/rickAndMorty.service';
 import {connect} from 'react-redux';
 import { addCharacter, deleteCharacter } from '../redux/rickAndMortySlice';
 
